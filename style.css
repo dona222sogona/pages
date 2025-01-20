@@ -1,0 +1,458 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:century;
+}
+.Visit a{
+    color: #000;
+    padding: 0px 10px;
+    border: 2px solid #000;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+.Visit span{
+    color: rgb(238, 56,11);
+    font-weight: bold;
+    font-size: 2rem;
+}
+ul{
+
+    list-style: none;
+
+    float: right;
+
+    display: flex;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+}
+
+ul li a{
+
+    text-decoration: none;
+
+    color: black;
+
+    padding: 100px 20px;
+
+    text-transform: uppercase;
+
+    border: 1px solid transparent;
+
+    margin: auto;
+
+    font-weight: 500;
+
+    transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+    background: #fff;
+    color:orangered;
+
+}
+
+.active a{
+
+   background: #fff;
+   color: #000;
+   border-bottom: 2px solid cadetblue;
+}
+.Principal{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.mod{
+    transition: 00.6s ease;
+}
+.mod:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+header h1 {
+    margin: 20px 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    
+}
+.card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.card hr {
+    width: 50px;
+    height: 3px;
+    border: none;
+    background: #f4a261;
+    margin: 10px auto;
+}
+
+.discover-btn {
+    padding: 10px 20px;
+    font-size: 0.9em;
+    color: #f4a261;
+    border: 2px solid #f4a261;
+    background: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.discover-btn:hover {
+    background-color: #f4a261;
+    color: #fff;
+}
+
+
+
+#img{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slideshow {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    animation: diaporama 20s infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+@keyframes diaporama {
+    0% {
+        background-image: url('Image2/gore.jpg');
+    }
+    20% {
+        background-image: url('Image2/veligandu-island-1044366_1280.jpg');
+    }
+    40% {
+        background-image: url('Image2/statue-of-liberty-2501264_1280.jpg');
+    }
+    60% {
+        background-image: url('Image2/GM.jpg');
+    }
+    80% {
+        background-image: url('Image2/OIP\ \(1\).jpg');
+    }
+    100% {
+        background-image: url('Image2/MALDIVES\ NUIT.jpg');
+    }
+    wid;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto; 
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-right: none;
+    border-radius: 30px;
+    outline: none;
+    text-align: center;
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50; 
+    border-radius: 30px;
+    cursor: pointer;
+    position:absolute;   
+}
+    
+  
+  .search-bar button i {
+    font-size: 16px;
+    top: 0;
+    right: 0;
+  }
+  
+  .search-bar button:hover {
+    background-color: #45a049; 
+  }
+.photo-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.photo {
+    position: relative;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    transform: rotate(-3deg);/
+    transition: transform 0.3s;
+}
+
+.photo:hover {
+    transform: rotate(0deg);
+}
+
+
+.photo img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.photo p {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+.photo::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #ccc;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+@media screen and(max-width:900px) {
+    nav-links{
+        display: none;
+
+    }
+}
+
+  
+.styled-text {
+    display: inline-block; /* Pour ajuster la largeur du fond à la largeur du texte */
+    background-color: #333; /* Fond noir */
+    color: white; /* Texte blanc */
+    padding: 5px 10px; /* Espacement autour du texte */
+    font-size: 1.8em; /* Taille de la police */
+    font-weight: bold; /* Texte en gras */
+    text-transform: uppercase; /* Texte en majuscules */
+    border-right: 8px solid orangered; /* Ligne jaune à droite */
+    text-align: center; /* Centrer le texte */
+    position: relative;
+  }
+  .p1 {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Pleine hauteur de l'écran */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ctn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.transparent_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Couche de transparence */
+  z-index: 1;
+}
+
+.label {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label span {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.label img {
+  width: 40px; /* Ajuster la taille de l'image */
+  height: 40px;
+  object-fit: contain;
+}
+body > .corps > .diaporama > .p1 {
+
+    height: 100%;
+    min-width: 100%;
+    
+
+    z-index: 5;
+
+}
+
+body > .corps > .diaporama > .p1 > .ctn {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 10px #777;
+    animation: fondu 15s ease-in-out infinite both;
+
+}
+
+
+@keyframes fondu{
+    0%{background-image: url("./images/venise_home.jpg");}
+    20%{background-image: url("./images/amsterdam_home.jpg");}
+    40%{background-image: url("./images/saint_louis_home.jpg");}
+    60%{background-image: url("./images/abu_dhabi_home.jpg");}
+    80%{background-image: url("./images/caire_home.jpg");}
+    100%{background-image: url("./images/venise_home.jpg");}
+
+
+
+
+
+}
+
+body > .corps > .diaporama > .p1:hover, body > .corps > .diaporama > .ctn:hover { 
+    animation-play-state: paused;
+}
+
+body > .corps > .p1 {
+    margin-top: 100px;
+    margin-left: 10%;
+    font-size: xx-large;
+    font-family: Helvetica, sans-serif;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+
+}
+
+
+body > .corps > .p1::after {
+    content: "";
+    height: 5px;
+    width: 25%;
+    background-color: #ffab07;
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+} 
+body > .corps > .p1 > strong {
+    background-color: #ffab07;
+    padding: 5px;
+}
+p{
+    text-align: left;
+}
+
+  
